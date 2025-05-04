@@ -31,3 +31,27 @@ This project serves as a deep dive into backend development, database design, AP
 ⬜️ API Development  
 ⬜️ CI/CD Setup  
 ⬜️ Security Implementation
+
+## Team Member Responsibilities
+
+For the purpose of accomplishing the effective collaboration and delivering the project successfully, understanding team roles is needful. Here is an explanation of the roles done in the Airbnb Clone Project which is modeled from actual development teams.
+
+### 1. **Project Manager (PM)**
+
+- **Responsibilities**: Ensures deadlines are achieved, facilitates communication among team members, prevents any blockers, and supervises the holistic progress of the project. Coordinates timelines and manages deliverables.
+
+### 2. **Product Manager**
+
+- **Responsibilities**: Guarantees that the final product meets user need as well as define the vision and scope of the product while prioritizing features based on business value.
+
+### 3. **Backend Developer**
+
+- **Responsibilities**: Designs and implements the business logic server-side using Django, builds and secures APIs, integrates with the database, and ensures the application works behind the scenes.
+
+### 4. **Database Administrator (DBA)**
+
+- **Responsibilities**: Oversees the designing and managing of the database schema in MySQL. Maintains data integrity, manages backups, migrations, and optimizes queries.
+
+### 5. **DevOps Engineer**
+
+- **Responsibilities**: Automate, monitor, and ensure consistency of the tests and the deploys using CI/CD pipelines in tools like GitHub Actions and Docker. Guarantee reliability and scalability of the system in development and production.
