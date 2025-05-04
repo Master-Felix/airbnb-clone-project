@@ -183,3 +183,23 @@ Securing the backend API is critical to maintaining the integrity, confidentiali
 
 **What it is**: Forces all requests to go through encrypted HTTPS connections.
 **Why it matters**: Protects data in transit from being intercepted or tampered with during communication between client and server.
+
+## CI/CD Pipeline
+
+### What is CI/CD?
+
+CI/CD stands for **Continuous Integration** and **Continuous Deployment**. It is a set of practices and tools that automate the process of building, testing, and deploying code. This ensures that every code change is automatically validated and deployed, minimizing human error and accelerating the development cycle.
+
+### Why It Matters
+
+- **Faster Development**: Automates testing and deployment, allowing features and fixes to reach production faster.
+- **Improved Code Quality**: Automatically runs tests and linting to catch bugs early in the development process.
+- **Team Collaboration**: Streamlines integration of contributions from multiple developers, reducing merge conflicts and deployment issues.
+- **Reliability**: Ensures consistent environments across development, staging, and production.
+
+### Tools We Use
+
+- **GitHub Actions**: Automates workflows like testing, linting, and deployment on every push or pull request.
+- **Docker**: Creates isolated environments to run the application, ensuring consistency across different machines and stages.
+- **MySQL Service**: Used in CI to test database interactions during automated builds.
+- **Optional**: Tools like **Heroku**, **AWS**, or **Render** for deployment depending on the hosting setup.
