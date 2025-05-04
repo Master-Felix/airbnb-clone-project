@@ -108,6 +108,8 @@ This project uses a **relational database model** designed with MySQL to manage 
 
 ### 🔗 Entity Relationships
 
+[ERD](/ERD.png)
+
 - A **User** can own multiple **Properties** (One-to-Many).
 - A **User** can make multiple **Bookings** (One-to-Many).
 - A **Property** can have multiple **Bookings** (One-to-Many).
