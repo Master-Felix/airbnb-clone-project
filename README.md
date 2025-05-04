@@ -149,3 +149,37 @@ The app uses secure authentication mechanisms, including password hashing and se
 ### 7. **Admin Dashboard (Optional Advanced Feature)**
 
 Admins can monitor system activity, manage users, review listings, and resolve disputes. This ensures platform integrity and operational oversight.
+
+## API Security
+
+Securing the backend API is critical to maintaining the integrity, confidentiality, and availability of the system. Below are key security measures implemented in the Airbnb Clone project and their significance:
+
+### 🔐 Authentication
+
+**What it is**: Validates the identity of users using secure login mechanisms (e.g., token-based authentication like JWT or session-based login).
+**Why it matters**: Ensures only verified users can access protected routes, protecting sensitive data such as booking history and payment details.
+
+### 🔒 Authorization
+
+**What it is**: Determines what resources a user can access based on their role (e.g., host, guest, admin).
+**Why it matters**: Prevents unauthorized access to actions such as editing properties or viewing another user's information.
+
+### 📈 Rate Limiting
+
+**What it is**: Controls the number of API requests a user or IP can make in a given timeframe.
+**Why it matters**: Prevents abuse, brute-force login attempts, and denial-of-service (DoS) attacks that can slow or crash the server.
+
+### 🧼 Input Validation & Sanitization
+
+**What it is**: Cleans and checks all incoming data for expected formats.
+**Why it matters**: Protects the system from common vulnerabilities such as SQL injection and cross-site scripting (XSS).
+
+### 🧾 Secure Payment Handling
+
+**What it is**: Uses encrypted communication channels and third-party payment gateways to handle transactions.
+**Why it matters**: Ensures users' financial data remains private and that payments are processed safely and accurately.
+
+### 🔐 HTTPS Enforcement
+
+**What it is**: Forces all requests to go through encrypted HTTPS connections.
+**Why it matters**: Protects data in transit from being intercepted or tampered with during communication between client and server.
