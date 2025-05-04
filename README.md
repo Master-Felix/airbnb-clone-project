@@ -108,7 +108,7 @@ This project uses a **relational database model** designed with MySQL to manage 
 
 ### 🔗 Entity Relationships
 
-[ERD](/ERD.png)
+![ERD](/ERD.png)
 
 - A **User** can own multiple **Properties** (One-to-Many).
 - A **User** can make multiple **Bookings** (One-to-Many).
@@ -117,3 +117,35 @@ This project uses a **relational database model** designed with MySQL to manage 
 - A **User** can leave multiple **Reviews** for different **Properties**.
 - A **Property** can have multiple **Reviews** (One-to-Many).
 - Each **Booking** has one corresponding **Payment** (One-to-One).
+
+## Feature Breakdown
+
+This section outlines the core features of the Airbnb Clone project, each of which contributes to building a robust, user-centric booking platform.
+
+### 1. **User Management**
+
+Users can register, log in, update their profiles, and securely manage their account credentials. This feature ensures personalized experiences and supports role-based actions like hosting or booking properties.
+
+### 2. **Property Management**
+
+Registered users can list their properties by adding details such as title, description, location, price per night, and photos. This feature enables property owners to showcase and manage their listings on the platform.
+
+### 3. **Booking System**
+
+Users can search for available properties and make bookings for specific dates. The system calculates total cost, checks for availability, and prevents overlapping reservations—ensuring a smooth reservation experience.
+
+### 4. **Review & Rating System**
+
+After completing a booking, users can leave a review and rate the property. This encourages quality service and builds trust within the platform by allowing future guests to make informed decisions.
+
+### 5. **Payment Integration**
+
+The platform supports payment processing tied to bookings, ensuring transactions are tracked and securely handled. Users can choose payment methods and view the status of their payments.
+
+### 6. **Authentication & Authorization**
+
+The app uses secure authentication mechanisms, including password hashing and session/token-based access control. This safeguards user data and restricts access to authorized content and actions.
+
+### 7. **Admin Dashboard (Optional Advanced Feature)**
+
+Admins can monitor system activity, manage users, review listings, and resolve disputes. This ensures platform integrity and operational oversight.
